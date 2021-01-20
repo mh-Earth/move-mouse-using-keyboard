@@ -8,11 +8,11 @@
 > Login as a root to run on linux
 ---
 ### How to use it?
-* use the keyboard arrows to move the cursor
-* press `1` for click Left
-* press `0` for click Right
-* press " ` "for use the keyboard as mouse
-* press `esc` for use the mouse
-* press `f1` to quit the programm
+* Use the `a,s,d,w` to move the cursor
+* Press `q` for click Left
+* Press `e` for click Right
+* Press " ` "for use the keyboard as mouse
+* Press `esc` for use the mouse
+* Press `f1` to quit the programm
 ---
 ---

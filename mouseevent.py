@@ -1,4 +1,4 @@
-# moveing mouse using keyboard
+# Use the `a,s,d,w` to move the cursor
 # use the keyboard arrow to move the curour
 # 1 for click Left
 # 0 for click RIght
@@ -17,18 +17,18 @@ while True:
             pyautogui.moveTo(x,y)
 
             #key board press 
-            if keyboard.is_pressed('left arrow'):
+            if keyboard.is_pressed('a'):
                 x-=15
-            if keyboard.is_pressed('right arrow'):
+            if keyboard.is_pressed('d'):
                 x+=15
-            if keyboard.is_pressed('down arrow'):
+            if keyboard.is_pressed('s'):
                 y+=15
-            if keyboard.is_pressed('up arrow'):
+            if keyboard.is_pressed('w'):
                 y-=15
-            if keyboard.is_pressed('1'):
-                pyautogui.click(button="LEFT")
-            if keyboard.is_pressed('0'):
-                pyautogui.click(button="RIGHT")
+            if keyboard.is_pressed('q'):
+                pyautogui.mouseDown(button="LEFT")
+            if keyboard.is_pressed('e'):
+                pyautogui.mouseDown(button="RIGHT")
             if keyboard.is_pressed('esc'):
                 working=False
             if keyboard.is_pressed('shift+\\'):
